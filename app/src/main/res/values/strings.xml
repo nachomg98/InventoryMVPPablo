@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="tvLogin_login">Login</string>
+    <string name="tieUser">Nombre de usuario </string>
+    <string name="tiePassword">Contraseña</string>
+    <string name="chkRemember">Recuerdame</string>
+    <string name="btSignUp_text">Registrar</string>
+    <string name="btSignIn_text">Login</string>
+    <string name="tvLogin_text">Iniciar sesion con otras plataformas</string>
+    <string name="tvTitleSignUp">Registro</string>
+    <string name="SignUp_tieUser_hint">Nombre de usuario</string>
+    <string name="SignUp_tieEmail_hint">Introduce tu email</string>
+    <string name="SignUp_tiePassword_hint">Introduce contraseña</string>
+    <string name="SignUp_tieConfirmPassword_hint">Confirma tu contraseña</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="imageButtonInventory">Imagen de un inventario</string>
+    <string name="imageButtonDependency">Imagen de una dependencia</string>
+    <string name="imageButtonSections">Imagen de una seccion</string>
+    <string name="imageButtonProducts">Imagen de un producto</string>
+    <string name="imageButtonAboutUs">Imagen de un about us</string>
+    <string name="imageButtonSettings">Imagen para la configuracion</string>
+    <string name="aboutusfragment_label">About Us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvActivated_text">"Fecha Activo: "</string>
+    <string name="tvCreated_text">"Fecha Creacion: "</string>
+    <string name="tvEnded_text">Fecha fin: </string>
+    <string name="tvEdit_text">Modificar Inventario</string>
+    <string name="btOk">OK</string>
+    <string name="edEnded_contentDescription">Debes introducir una fecha de fin</string>
+    <string name="edCreated_contentDescription">Debes introducir una fecha de creacion</string>
+    <string name="edActivated_contentDescription">Debes introducir una fecha de activacion</string>
+    <string name="action_aboutus">Sobre Nosotros</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_order_dependency">Ordenar Dependencias</string>
+</resources>

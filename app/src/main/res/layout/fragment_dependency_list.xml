@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dependency.DependencyListFragment">
+
+    <!-- Si tengo que mostrar  un NO DATA hay que poner un linear layout -->
+
+    <LinearLayout
+        android:id="@+id/llnodata_dependencylist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvNoData"
+            android:gravity="center"
+            android:fontFamily="@font/officialbook"
+            android:textSize="@dimen/dependency_item_textSize"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.30">
+        </TextView>
+
+    </LinearLayout>
+
+    <!-- con include se añade un progress bar que inicialmente esta oculto
+      y que se mostrara en las operaciones asincronas-->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/include_layout_progressbar"
+        layout="@layout/layout_progressbar"></include>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDependency"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:elevation="@dimen/fab_elevation"
+        android:src="@android:drawable/ic_input_add" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
